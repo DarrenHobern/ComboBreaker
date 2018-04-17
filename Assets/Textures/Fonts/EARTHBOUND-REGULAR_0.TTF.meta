@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2caa8bc5507c55742964a897fa72e3dc
+timeCreated: 1522876794
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Earthbound
+  fontNames:
+  - Earthbound
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: bcc8f9fa4e5e9f2429d9c4a713ed9743, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

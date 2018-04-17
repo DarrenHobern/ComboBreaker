@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eb24e61d50fb301448a6d7f52b6c1bcb
+timeCreated: 1522219528
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - bIcons: {fileID: 11400000, guid: cdd5cb519a2012641affe4005d3875e0, type: 2}
+  - combo: {fileID: 11400000, guid: bc4159af1a6c2374bbd6f0f6e953a599, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

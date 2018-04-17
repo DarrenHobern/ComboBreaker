@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: c42459eaafa5f514fbe85f37f45e4bd7
+timeCreated: 1522877713
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Letter Gothic Std
+  fontNames:
+  - Letter Gothic Std
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 64189bf74fad9f14d8c4385fc7271b56, type: 3}
+  - {fileID: 12800000, guid: 2633cfe8223303b419afe7fc640dd7f2, type: 3}
+  - {fileID: 12800000, guid: 120eadcfa467ca24485d9e4ffc638456, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
