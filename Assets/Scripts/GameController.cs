@@ -134,11 +134,10 @@ public class GameController : MonoBehaviour {
         float start = Input.GetAxisRaw("Start");
 
         // Dev cheats
-        float l3 = Input.GetAxisRaw("L3");
-        float r3 = Input.GetAxisRaw("R3");
-
-        if (l3 != 0 && r3 != 0)
-            EndGame();
+        //float l3 = Input.GetAxisRaw("L3");
+        //float r3 = Input.GetAxisRaw("R3");
+        //if (l3 != 0 && r3 != 0)
+        //    EndGame();
 
         #region pausing
         if (start != 0)

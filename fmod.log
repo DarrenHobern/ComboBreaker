@@ -8,7 +8,7 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000000044BFFE38 isAsync 1 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000000005A6285D8 isAsync 1 updatePeriod 0.02
 [LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
@@ -24,48 +24,116 @@
 [LOG] SystemI::createSound                     : filename = S:\_Documents\Project\RhythmBEU\Music\rhythmbeu\Build\Desktop/Master Bank.bank : mode 02010082
 [LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
 [LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] SystemI::createSound                     : setdata soundi = 0000000002771BE8 : node = 0000000014DB3E10
-[LOG] SystemI::createSound                     : add node to async list : head = 0000000024E945E8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000002771BE8
+[LOG] SystemI::createSound                     : setdata soundi = 000000003D101E48 : node = 00000000151EAEB0
+[LOG] SystemI::createSound                     : add node to async list : head = 000000003D0D38C8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000003D101E48
 [LOG] SystemI::createSoundInternal             :     Create name='S:\_Documents\Project\RhythmBEU\Music\rhythmbeu\Build\Desktop/Master Bank.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 4534272
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 22432
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000000014DB3F28
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000151EAFC8
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSound                     :     filename = S:\_Documents\Project\RhythmBEU\Music\rhythmbeu\Build\Desktop/Master Bank.bank : mode 02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSound                     :     setdata soundi = 0000000002771888 : node = 0000000014DB51C0
-[LOG] SystemI::createSound                     :     add node to async list : head = 0000000024E945E8.  list count = 0
+[LOG] SystemI::createSound                     :     filename = S:\_Documents\Project\RhythmBEU\Music\rhythmbeu\Build\Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 000000003D101FF8 : node = 00000000151EB930
+[LOG] SystemI::createSound                     :     add node to async list : head = 000000003D0D38C8.  list count = 0
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='613424_Coldline', format=2, channels=2, frequency=48000, lengthbytes=2748480, lengthpcm=9988388, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
 [LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 16384, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000002771BE8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000002771888
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000003D101E48
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000000003D101FF8
 [LOG] SystemI::createSoundInternal             :     Create name='S:\_Documents\Project\RhythmBEU\Music\rhythmbeu\Build\Desktop/Master Bank.bank', mode=0x02010082
 [LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
 [LOG] SystemI::createSoundInternal             :     exinfo->length             = 4534272
 [LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 22432
 [LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000000014DB52D8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000000151EBA48
 [LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
 [LOG] SystemI::createSoundInternal             :     Stream 0/1: name='613424_Coldline', format=2, channels=2, frequency=48000, lengthbytes=2748480, lengthpcm=9988388, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000002771888
-[LOG] SoundI::release                          : 613424_Coldline (0000000002771BE8)
-[LOG] SoundI::release                          :     613424_Coldline (0000000024E947D8)
-[LOG] SoundI::release                          :     613424_Coldline (0000000002771378)
-[LOG] SoundI::getSubSound                      : sound 0000000002771888.  Subsound index 0 / 1
-[LOG] SystemI::mixerSuspend                    : Suspending output.
-[LOG] SystemI::mixerResume                     : Resuming output.
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000000002771D98
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000000002771D98
-[LOG] SoundI::release                          : 613424_Coldline (0000000002771888)
-[LOG] SoundI::release                          :     613424_Coldline (0000000024E94978)
-[LOG] SoundI::release                          :     613424_Coldline (0000000002771D98)
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000000003D101FF8
+[LOG] SoundI::release                          : 613424_Coldline (000000003D101E48)
+[LOG] SoundI::release                          :     613424_Coldline (000000003D0D23F8)
+[LOG] SoundI::release                          :     613424_Coldline (000000003D100BB8)
+[LOG] SoundI::getSubSound                      : sound 000000003D101FF8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4534272
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 22432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000077BDF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFAE2ABE310
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFAE2ABE2E0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFAE2ABE3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFAE2ABE490
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005A5334F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='zapsplat_impact_thud_light_small_soft_object_001_17766', format=2, channels=1, frequency=48000, lengthbytes=1280, lengthpcm=9216, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.684082.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4534272
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 22432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000077BDF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFAE2ABE310
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFAE2ABE2E0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFAE2ABE3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFAE2ABE490
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005A5334F8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='sport_golf_swing_club_hit_ball_002', format=2, channels=1, frequency=48000, lengthbytes=1760, lengthpcm=11520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.837067.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4534272
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 22432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000077BDF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFAE2ABE310
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFAE2ABE2E0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFAE2ABE3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFAE2ABE490
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000005A531958
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='ftus_old_rotary_telephone_receiver_1986_down_hard_001', format=2, channels=2, frequency=48000, lengthbytes=33792, lengthpcm=122112, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.712769.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4534272
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 22432
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000077BDF5FC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFAE2ABE310
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFAE2ABE2E0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFAE2ABE3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFAE2ABE490
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000000003D43F438
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='explosion_internal_loud_bang_blow_up_safe', format=2, channels=2, frequency=48000, lengthbytes=69472, lengthpcm=369792, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.891022.
+[LOG] SoundI::release                          : 613424_Coldline (000000003D101FF8)
+[LOG] SoundI::release                          :     613424_Coldline (000000003D0D3918)
+[LOG] SoundI::release                          :     613424_Coldline (000000003D101428)
+[LOG] SoundI::release                          :  (000000005A3DD138)
+[LOG] SoundI::release                          :     zapsplat_impact_thud_light_small_soft_object_001_17766 (000000003D0D3C58)
+[LOG] SoundI::release                          :  (000000005A3DCE58)
+[LOG] SoundI::release                          :     sport_golf_swing_club_hit_ball_002 (000000003D0D3DF8)
+[LOG] SoundI::release                          :  (000000005A3DC448)
+[LOG] SoundI::release                          :     explosion_internal_loud_bang_blow_up_safe (000000003D0D35D8)
+[LOG] SoundI::release                          :  (000000005A3DC2D8)
+[LOG] SoundI::release                          :     ftus_old_rotary_telephone_receiver_1986_down_hard_001 (000000003D0D2DB8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
